@@ -1,11 +1,16 @@
 <?php
-echo "Hellow";
-/*if($_SERVER["REQUEST_METHOD"]=="POST")
+
+$watts = $hours = $price= "";
+$kwhr = $x = "";
+if($_SERVER["REQUEST_METHOD"]=="POST")
 {
-$watts = htmlspecialchars($_POST["watts"]);
+$watts = htmlspecialchars($_POST["Watts"]);
 $hours = htmlspecialchars($_POST["hours"]);
-$price = htmlspecialchars($_POST["price"]);   
+$price = htmlspecialchars($_POST["Price"]);   
 
+}
 
-echo "$watts";
-}*/
+$kwhr = ($watts * $hours) / 1000 ;
+$x = $kwhr * $price;
+
+echo "$x";
