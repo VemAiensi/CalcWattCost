@@ -13,6 +13,9 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $price = test_input($_POST["Price"]);   
 
          /*converting unit to KWhr*/
+         if($unit !=null){
+
+         
         switch($unit) 
         {
             case "watts":
@@ -32,6 +35,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
                 break;
             
         }
+    }
         
        
 

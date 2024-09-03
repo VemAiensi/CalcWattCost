@@ -10,10 +10,9 @@
       <h3>Calc-Watt-Cost</h3> 
       <form  method="post" action="../phptest/testserver.php" >
              
-          <input type="radio" name="units" value="watts" id="watts">Watts
+          <input type="radio" name="units" value="watts" id="watts" require>Watts
           <input type="radio" name="units" value="amp" id="amp">Ampere
           <input type="radio" name="units" value="volt" id="volt">Volt
-          <br />
           <input type="number" id="pow" name="pow" placeholder=" Type Here" required/>
           <br /><br />
           <label for="hours">Hours:</label><br />

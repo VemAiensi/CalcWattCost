@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -74,14 +74,14 @@ body {
       cursor: pointers;
     }
 
-    input[type=submit]:hover {
+    button[type=submit],button[type=reset]:hover {
       background-color: #45a049;
     }
 
     div {
       position: absolute;
       width: 500px;
-      height: 500px;
+      height: px;
       top: 10%;
       left: 50px;
       outline: color( rgb(0, 0, 0));
@@ -90,6 +90,14 @@ body {
       background-color: #f2f2f2;
       padding: 20px;
     }
+}
+
+.n{
+  border: none;
+  background-color: rgb(74, 53, 4);
+  color: #FF0000;
+  opacity: unset;
+  
 }
 
 .error {color: #FF0000;}
