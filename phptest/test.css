@@ -1,0 +1,103 @@
+* {
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #d8cdcd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: #ddd;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #615e5e;
+  padding: 10px;
+}
+
+
+.form1{
+
+  h3{
+    float: top;
+    text-align: center;
+    padding: 5px,5px;
+    margin-top: 5px;
+  }
+    input[type=number], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    button[type=submit], button[type=reset] {
+      text-align: center;
+      width: 50%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointers;
+    }
+
+    button[type=submit], button[type=reset]:hover {
+      background-color: #45a049;
+    }
+
+    div {
+      position: absolute;
+      width: 500px;
+      height: px;
+      top: 10%;
+      left: 50px;
+      outline: color( rgb(0, 0, 0));
+      outline-style: double;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+}
+
+.n{
+  border: none;
+  background-color: rgb(74, 53, 4);
+  color: #FF0000;
+  opacity: unset;
+  
+}
+
+.error {color: #FF0000;}
