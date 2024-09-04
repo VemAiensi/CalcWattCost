@@ -74,13 +74,14 @@ html, body{
 
 
 /* main component */
-.page{
+
+.operation-section, .price-section{
     display: flex;
     justify-content: center;
     padding: 30px;
 }
 
-.page div {
+.operation-section div,  .price-section div {
     border-radius: 10px;
     padding: 30px;
     background-color: antiquewhite;
