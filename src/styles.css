@@ -1,9 +1,98 @@
-.nav{
+/* fonts */
+@font-face {
+    font-family: "JetBrains";
+    src: url('/Assets/Fonts/JetBrainsMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+
+/* overall */
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+a {
+    text-decoration: none;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+}
+
+
+/* navigator */
+.nav {
+    /* overflow: hidden;
+    position: fixed; */
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.8);
+    /* background-image: url("Assets/hehe.jpg"); */
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 5px 30px;
+}
+
+.nav span{
+    font-size: 2rem;
+    font-family: JetBrains;
+    color: white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.nav-item-left{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height:75px;
+    width:75px;
+    background-color: #777;
+}
+
+.logo span{
+    font-size: x-small;
+}
+
+.site-title{
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+
+/* main component */
+.page{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.page div {
+    border-radius: 10px;
+    padding: 30px;
     background-color: antiquewhite;
 }
 
-.input_area{
-    display: flex;
-    font-size: larger;
-    
+.input-area span{
+    font-size: 1rem;
+    font-family: JetBrains;
 }
+
+.summation{
+    margin-left: 10px;
+    display:flex;
+}
+
