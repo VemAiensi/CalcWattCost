@@ -1,7 +1,7 @@
   <?php
-   require "header.php";
+   require 'header.php';
   ?>
-  <link rel="stylesheet" href="test.css">
+  
     <main>
       
     <span class="form1">
@@ -30,5 +30,8 @@
     </main>
 
 
+<?php
+   require 'footer.php';
+  ?>
 
   

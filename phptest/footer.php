@@ -1,2 +1,10 @@
+<link rel="stylesheet" href="test.css">
 
-<footer><div><h1 class="footer">THis is footer</h1></div></footer>
+
+<footer><div class="footer">
+<?php
+echo "<p>Copyright &copy; 2024-" . date("Y")."";
+
+?>
+</div>
+</footer>
