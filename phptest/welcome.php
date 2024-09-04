@@ -1,7 +1,7 @@
 <html>
 <body>
 <?
-name = $email = $gender = $comment = $website = "";
+$name = $email = $gender = $comment = $website = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = test_input($_POST["name"]);
